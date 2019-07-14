@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".MyProfile">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_myprofile"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:forceHasOverlappingRendering="true"
+        android:gravity="start|center"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="About ALC"
+        app:titleMarginStart="6dp"
+        tools:ignore="UnusedAttribute"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:id="@+id/image_view"
+                tools:ignore="ContentDescription"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="177dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:paddingBottom="8dp"
+                android:text="Kabba Joseph Timothy"
+                android:textAlignment="center"
+                android:textColor="@color/colorGray"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="646dp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorBlack"
+                tools:layout_editor_absoluteX="62dp"
+                tools:layout_editor_absoluteY="405dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingStart="20dp"
+                android:paddingLeft="25dp"
+                android:text="Track:    Android"
+                android:textColor="@color/colorGray"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlSymmetry"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="596dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingStart="20dp"
+                android:paddingLeft="25dp"
+                android:text="Country:   Uganda"
+                android:textColor="@color/colorGray"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlSymmetry"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="596dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingStart="20dp"
+                android:paddingLeft="25dp"
+
+                android:text="Email:    kabbajoseph072@gmail.com"
+                android:textColor="@color/colorGray"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlSymmetry"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="680dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingStart="20dp"
+                android:paddingLeft="25dp"
+                android:text="Phone number:    +256772430077"
+                android:textColor="@color/colorGray"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlSymmetry"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="418dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingStart="20dp"
+                android:paddingLeft="25dp"
+                android:text="Slack Username:    @kabbajoseph"
+                android:textColor="@color/colorGray"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlSymmetry"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="515dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
